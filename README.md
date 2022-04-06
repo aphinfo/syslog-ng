@@ -1,4 +1,4 @@
-# <syslog-ng>
+# syslog-ng
 
 syslog-ng allows you to flexibly collect, parse, classify, and 
 correlate logs from across your infrastructure and store or 
