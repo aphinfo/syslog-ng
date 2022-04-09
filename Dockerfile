@@ -4,7 +4,7 @@ LABEL maintainer = "Andre Sartori <https://www.aphinfo.com.br>"
 
 RUN apk add --no-cache syslog-ng
 
-ADD syslog-ng.conf /etc/syslog-ng.conf
+ADD syslog-ng.conf /etc/syslog-ng/syslog-ng.conf
 
 VOLUME /var/log/syslog-ng
 
